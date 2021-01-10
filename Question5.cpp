@@ -2,15 +2,11 @@
 #include <string.h>
 #include <algorithm>
 using namespace std;
-
-int main()
+void palindrome(string inp)
 {
-    string inp, org;
-    cout << "Enter the string : ";
-    cin >> inp;
-    org = inp;
+    string orig = inp;
     reverse(inp.begin(), inp.end());
-    if (org == inp)
+    if (orig == inp)
     {
         cout << "Palindrome.\n";
     }
@@ -18,6 +14,16 @@ int main()
     {
         cout << "Not Palindrome.\n";
     }
+    return;
+}
+int main()
+{
+    string inp;
+    cout << "Enter the string : ";
+    cin >> inp;
+
+    palindrome(inp);
+
     system("pause");
     return 0;
 }
