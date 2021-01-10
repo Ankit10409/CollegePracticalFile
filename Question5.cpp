@@ -12,10 +12,12 @@ int main()
     reverse(inp.begin(), inp.end());
     if (org == inp)
     {
-        cout << "Palindrome.";
+        cout << "Palindrome.\n";
     }
     else
     {
-        cout << "Not Palindrome.";
+        cout << "Not Palindrome.\n";
     }
+    system("pause");
+    return 0;
 }

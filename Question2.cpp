@@ -14,6 +14,7 @@ int main()
         rev = rev * 10 + lsdig;
         num /= 10;
     }
-    cout << "Reverse number is : " << rev;
+    cout << "Reverse number is : " << rev << endl;
+    system("pause");
     return 0;
 }

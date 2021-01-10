@@ -15,6 +15,7 @@ int main()
         num /= 10;
     }
     cout << "Sum is : " << sum << endl
-         << "Product is : " << prod;
+         << "Product is : " << prod << endl;
+    system("pause");
     return 0;
 }

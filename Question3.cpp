@@ -12,6 +12,7 @@ int main()
     {
         sum += 1 / float(i);
     }
-    cout << "Sum of series is : " << sum;
+    cout << "Sum of series is : " << sum << endl;
+    system("pause");
     return 0;
 }

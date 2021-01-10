@@ -14,5 +14,7 @@ int main()
         else
             sum += i;
     }
-    cout << "Sum of the Series is : " << sum;
+    cout << "Sum of the Series is : " << sum << endl;
+    system("pause");
+    return 0;
 }
