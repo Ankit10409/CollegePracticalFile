@@ -126,6 +126,7 @@ void printrev(int a[], int size)
 }
 int main()
 {
+
     system("cls");
     int num;
     cout << "Enter length of array :";
